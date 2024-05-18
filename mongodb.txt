@@ -1,0 +1,51 @@
+            MONGOdb
+          ------------
+
+
+-> its a non relational,non sql,document based,open source
+
+*faster
+*scalabe
+*document based-json documents - data will be stored in key value psirs
+*schamaless
+
+|--------------------|----------------------------------------------------------------|
+| mysql              |        MONGOdb                                                 |
+|--------------------|----------------------------------------------------------------|
+| Database           | Database                                                       |
+| table              | collection                                                     |
+| row/tuple/entity   | document                                                       |
+| primary key        | _id(12bit hexadecimal value for evary document which is uniq)  |
+|                    |                                                                |
+
+
+
+
+    ->mongoose -- odm library:
+<------------------------------> 
+
+-- object data modelling library for mongodb and node.js
+-- used to translate object in node app and representation of those object in mongodb
+-- defines schema/structures for storing documents in a collection of mongodb
+        Schema Types(string,number,default,...)
+        optins(requred.default,..)
+
+-- craete model similar coolection where we can store documents
+
+-- install mongooose : npm i mongoose
+
+--craete connection :
+      create folder in server : DB folder
+      create a js file to define connection
+
+
+
+json Web Token(jwt)
+mechanism used for authentication
+
+
+
+
+==>midleware
+
+special function that can process request in between client and serevr,and .block the request if they needed to
